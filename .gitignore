@@ -1,0 +1,53 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python & FastAPI backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Temporary uploaded datasets & local chart outputs
+uploads/
+temp/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.sqlite
+*.db
+
+# Node / Vite / React frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+node_modules/
+dist/
+build/
+.vite/
+*.local
+
+# Logs & OS / editor junk
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
